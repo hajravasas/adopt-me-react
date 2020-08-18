@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Pet from "./Pet";
+import SearchParams from "./SearchParams";
 
 const App = () => {
   return (
     <div>
       <h1 id="something-imoportant">Adopt</h1>
-      <Pet name="Dexter" animal="Dog" breed="Boston Terrier" />
-      <Pet name="Olive" animal="Dog" breed="ParkSide Mix" />
-      <Pet name="XYZ" animal="Cat" breed="Siamese" />
+      <SearchParams />
     </div>
   );
 };
@@ -33,3 +31,9 @@ ReactDOM.render(<App />, document.getElementById("root"));
 //       breed: "Siamese",
 //     }),
 //   ]);
+
+{
+  /* <Pet name="Dexter" animal="Dog" breed="Boston Terrier" />
+      <Pet name="Olive" animal="Dog" breed="ParkSide Mix" />
+      <Pet name="XYZ" animal="Cat" breed="Siamese" /> */
+}
